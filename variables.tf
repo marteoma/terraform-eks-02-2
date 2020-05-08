@@ -2,7 +2,7 @@
 
 variable "project_owner" {
     description     = "Tag to identify the resource owner name"
-    default         = "Mateo  Arboleda"
+    default         = "Mateo Arboleda"
 }
 
 variable "project_email" {

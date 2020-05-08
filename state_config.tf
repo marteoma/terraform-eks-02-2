@@ -1,9 +1,9 @@
 terraform { 
     backend "s3" {
-        bucket          = "terraform.hachiko.app"
+        bucket          = "terraform-eks-02"
         key             = "terraform-eks-00/state"
         region          = "us-east-1"
-        dynamodb_table  = "terraform-state-01"
+        dynamodb_table  = "terraform-eks-02"
         encrypt         = true
     }
 }
