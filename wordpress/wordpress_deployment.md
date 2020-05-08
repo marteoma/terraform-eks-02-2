@@ -1,6 +1,6 @@
 ### Configure workstation kubeconfig
 
-- aws eks --region us-east-1 update-kubeconfig --name eks-wordpress --profile default
+- aws eks --region us-east-1 update-kubeconfig --name terraform-eks-02 --profile endava
 
 ### Create Storage Class, Namespace and Secret
 
