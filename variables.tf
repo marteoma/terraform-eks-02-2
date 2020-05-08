@@ -2,12 +2,12 @@
 
 variable "project_owner" {
     description     = "Tag to identify the resource owner name"
-    default         = "William Munoz"
+    default         = "Mateo  Arboleda"
 }
 
 variable "project_email" {
     description     = "Tag to identify the resource owner email"
-    default         = "william.munoz@endava.com"
+    default         = "mateo.arboleda@endava.com"
 } 
 
 variable "project_name" {
@@ -43,16 +43,16 @@ variable "environment" {
 
 variable "vpc_name" {
     description     = "VPC Name"
-    default         = "terraform-eks-01"
+    default         = "terraform-eks-02"
 }
 
 variable "cidr_ab" {
     type = map
     default = {
-        development = "172.20"
-        qa          = "172.21"
-        staging     = "172.22"
-        production  = "172.23"
+        development = "172.24"
+        qa          = "172.25"
+        staging     = "172.26"
+        production  = "172.27"
     }
 }
 
@@ -87,7 +87,7 @@ locals {
 /* EKS Wordpress Cluster */
 variable "eks_cluster_name" {
     description     = "EKS Cluster Name"
-    default         = "eks-wordpress"
+    default         = "terraform-eks-02"
 }
 
 /* EKS Wordpress Worker Nodes */
